@@ -22,7 +22,7 @@ function handleSubmit(e) {
     // for (var [key, value] of form_data.entries()) {
     //     console.log(key, ": ", value);
     // }
-    axios.post("http://127.0.0.1:8000/apiv1/status/", form_data, {
+    axios.put("http://127.0.0.1:8000/apiv1/status/164", form_data, {
         header: {
             "Content-Type": "multipart/form-data"
         }
